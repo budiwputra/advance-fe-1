@@ -21,7 +21,7 @@ const SideBarDashboard = () => {
 
             <div className='flex flex-col'>
                 <ButtonMenu onClick={ () => toggleMenu("productApi") } className="w-full text-left py-[16px] pl-[36px] pr-[16px] hover:bg-secondary 
-                flex justify-between">API Product <span>{openMenu === "productApi" ? 
+                flex justify-between">Product <span>{openMenu === "productApi" ? 
                 <img src={upLogo} alt="Up" /> : 
                 <img src={bottomLogo} alt="Down" />}</span>                 
                 </ButtonMenu>
