@@ -15,7 +15,7 @@ const Card = () => {
 
     return (
         <div className='flex flex-col gap-[12px] w-full'>
-        <div className='flex flex-row justify-between gap-[12px]'>
+        <div className='flex flex-row justify-between'>
             <button className='border rounded-sm p-1 cursor-pointer hover:text-primary'
             onClick={() => navigate('/dashboard/product-entry')}>Add Product</button>
             <button hidden={product.length === 0} 
